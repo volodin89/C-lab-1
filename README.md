@@ -35,7 +35,7 @@
     int getRecommendation(char gender, float height, float weight);
   ```
   
- * **task1.c** - содержит реализацию функции
+ * **task1.cpp** - содержит реализацию функции
  
    ```
       int getRecommendation(char gender, float height, float weight)
@@ -43,7 +43,7 @@
          // здесь реализация
       }
    ```
- * **main1.c** - содержит реализацию **main**:
+ * **main1.cpp** - содержит реализацию **main**:
    ```
       #include "task1.h"
       int main()
@@ -70,7 +70,7 @@
   
 Программа должна состоять из двух функций:
 
-  - **char * greet(int hour,int min)** - генерация приветствия и провека корректности времени
+  - **const char * greet(int hour,int min)** - генерация приветствия и провека корректности времени
   - **main()** - организация диалога
   
 Функция **greet** должна возврщать одну из следующих строк:
@@ -88,16 +88,16 @@
 
 Необходимо подготовить следующие файлы:
 
- * **task2.h** - содержит одну строку: **char * greet(int hour,int min);**
- * **task2.c** - содержит реализацию функции
+ * **task2.h** - содержит одну строку: **const char * greet(int hour,int min);**
+ * **task2.cpp** - содержит реализацию функции
  
    ```
-      char* greet(int hour,int min)
+      const char* greet(int hour,int min)
       {
          // здесь реализация
       }
    ```
- * **main2.c** - содержит реализацию **main**:
+ * **main2.cpp** - содержит реализацию **main**:
    ```
       #include "task2.h"
       int main()
@@ -129,7 +129,7 @@
 Необходимо подготовить следующие файлы:
 
  * **task3.h** - содержит заголовок функции **convert**.
- * **task3.c** - содержит реализацию функции **convert**.
+ * **task3.cpp** - содержит реализацию функции **convert**.
  
    ```      
       char * convert(char buf[], double angle, char type)
@@ -137,7 +137,7 @@
          // здесь реализация
       }
    ```
- * **main3.c** - содержит реализацию **main**:
+ * **main3.cpp** - содержит реализацию **main**:
    ```
       #include "task3.h"
       int main()
@@ -167,7 +167,7 @@
 Необходимо подготовить следующие файлы:
 
  * **task4.h** - содержит заголовок функции **convert**.
- * **task4.c** - содержит реализацию функции **convert**.
+ * **task4.cpp** - содержит реализацию функции **convert**.
  
    ```      
       float convert(int feet,int inches)
@@ -175,7 +175,7 @@
          // здесь реализация
       }
    ```
- * **main4.c** - содержит реализацию **main**:
+ * **main4.cpp** - содержит реализацию **main**:
    ```
       #include "task4.h"
       int main()
@@ -196,14 +196,14 @@
 
   Содержимое папки **src**:
   
-  - task1.c
-  - task2.c
-  - task3.c
-  - task4.c
-  - main1.c
-  - main2.c
-  - main3.c
-  - main4.c
+  - task1.cpp
+  - task2.cpp
+  - task3.cpp
+  - task4.cpp
+  - main1.cpp
+  - main2.cpp
+  - main3.cpp
+  - main4.cpp
   
   
   
