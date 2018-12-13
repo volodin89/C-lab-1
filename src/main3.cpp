@@ -10,7 +10,7 @@ int main()
 	printf("Enter angle and type (180.0D): ");
 	scanf("%f%c", &angle, &type);
 	
-	convert(buf, angle, type)
+	convert(buf, angle, type);
 	printf("%s",buf);
 	return 0;
 }
